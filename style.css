@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body{
+    margin: auto;
+    background-image: url("backrgoundimage.jpg");
+
+}
+h1{color:white;
+    font-family: 'Bruno Ace SC', cursive;
+font-size: 525%}
+h2{color:white; text-align: center}
+h3{color:white;}
+h4{color:white;}
+p {color: white;}
+li{color: white;}
+a{color: white}
+label{color: white}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 90%;
+    }
+    header img{
+        max-width: 10%;
+    }
+    nav {
+        font-size: 50%;
+    }
+    h3{
+        font-size: 90%;
+    }
+    #part_5{
+        flex-direction: column;
+    }
+    p{
+        font-size: 90%;
+    }
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    background: #5d3434;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+header img{
+    max-width: 25%;
+    border-radius: 15px;
+}
+
+.Top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Top ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    list-style: none;
+    gap: 7px;
+}
+
+.Bereich1 img{
+    max-width: 85%;
+    border-radius: 15px;
+}
+.Bereich2 img{
+    max-width: 85%;
+    border-radius: 15px;
+}
+.Bereich3 img{
+    max-width: 85%;
+    border-radius: 15px;
+}
+.Bereich4 img{
+    max-width: 85%;
+    border-radius: 15px;
+}
+.BereichAboutMe1{
+    display: flex;
+}
+.BereichAboutMe2{
+    display: flex;
+}
+
+.Bereich1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkcyan;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+}
+.Bereich2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkolivegreen;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+}
+.Bereich3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkcyan;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+}
+.Bereich4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkolivegreen;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+}
+
+.MotivationList li{
+    font-size: 120%;
+}
+
+#part_3{
+    display: flex;
+    flex-direction: column;
+    /* max-width: 100%; */
+    width: 47rem;
+    margin: auto;
+    padding: 2rem;
+
+}
+.MotivationList {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+.Bereich5 img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.Bereich6 img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.Bereich5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6b3362;
+    border-radius: 15px;
+    margin: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 2%;
+
+}
+
+.Bereich6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+    background-color: #6b3362;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+.Lebenslauf{
+    display: flex;
+    justify-content: center;
+}
+
+
+.KontaktFormular {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+
+}
+
+.Impressum{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+}
+
+#part_5{
+    display: flex;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.CbLogo img{
+    max-width: 15%;
+    border-radius: 15px;
+}
+.CbLogo{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%
+}
+
+#part_6 h3{
+    text-align: left;
+    margin: 2%;
+}
+
+.Java img{
+    max-width: 15%;
+    border-radius: 15px;
+}
+.Java{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding: 2%;
+}
+.Web img{
+    max-width: 15%;
+    border-radius: 15px;
+}
+.Web{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding: 2%
+}
+
+
+.BackToStart{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+
+}
